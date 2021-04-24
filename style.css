@@ -1,0 +1,681 @@
+.header__div-presentation {
+  height: 300px;
+  background-image: url("resources/banner-background-v2.jpg");
+  position: relative;
+}
+
+.header__div-container-img {
+  border: 4px solid #f80;
+  height: 125px;
+  width: 125px;
+  border-radius: 60px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  bottom: 0;
+  margin: auto;
+}
+
+.header__div-container-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 60px;
+  object-fit: none;
+}
+
+.header__div-presentation h1 {
+  position: absolute;
+  height: 50px;
+  top: 0;
+  left: 275px;
+  bottom: 0;
+  margin: auto;
+}
+
+.header__div-presentation h1 {
+  display: inline-block;
+  font-family: "Khand", "Rajdhani";
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.header__nav {
+  background-color: #eee;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 300;
+}
+
+.nav__ul-container-items {
+  position: absolute;
+  right: 0;
+  width: 800px;
+}
+
+.ul__li-container-items {
+  display: inline-block;
+  padding: 20px;
+}
+
+.ul__li-container-items a {
+  font-family: "Khand", "Rajdhani";
+  font-weight: 300;
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.ul__li-container-items:hover {
+  border-top: 5px solid #0c0;
+  margin-top: -5px;
+  border-bottom: 5px solid #0c0;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+/*#################3 PRESENTATION #####################*/
+.section {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.section-contacto {
+  position: absolute;
+  width: 40%;
+  height: calc(40% - 15px);
+  left: 0;
+  text-align: center;
+}
+
+.section-contacto i {
+  font-size: 35px;
+}
+
+.section-contacto h1 {
+  font-family: "Khand";
+  font-weight: 400;
+}
+
+.section-contacto h1 a {
+  text-decoration: none;
+  color: #080;
+  background-color: #fff;
+  padding: 0px 15px;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+
+.section-contacto h1 a:hover {
+  background-color: #080;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0px 15px;
+  transition: all 0.4s;
+}
+
+.section-contacto p {
+  font-family: "Lato";
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.section-bienvenida {
+  position: absolute;
+  width: 40%;
+  height: 60%;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  /*background-color: rgb(255, 107, 74);*/
+  background-color: #f75;
+  text-align: right;
+  color: #fff;
+  padding-top: 35px;
+  padding-right: 110px;
+  padding-left: 100px;
+}
+
+.section-bienvenida h1 {
+  font-family: "Rajdhani";
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: -2px;
+}
+
+.section-bienvenida h2 {
+  font-family: "Rajdhani", "Saira Semi Condensed";
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.section-bienvenida p {
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.section-slides {
+  position: absolute;
+  width: 60%;
+  height: calc(80vh - 15px);
+  right: 0;
+}
+
+.section-slides__ul-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.section-slides__ul-container li {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.section-slides__ul-container li img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-complement {
+  background-color: #f75;
+  width: 30px;
+  height: 60%;
+  position: absolute;
+  z-index: 200;
+  bottom: 0;
+  left: 40%;
+}
+
+.section-complement__div-corner {
+  width: 0px;
+  height: 0px;
+  z-index: 200;
+  position: absolute;
+  top: -30px;
+  border-right: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #c43;
+  border-bottom: 15px solid #c43;
+}
+
+/*############################################################################*/
+/*################################# SECCIONES ARTICULO #######################*/
+/*############################################################################*/
+
+.article section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  margin: 50px 0px;
+}
+
+article .article__section-menu {
+  height: calc(100vh * 2 - 479px);
+}
+
+article .article__section-acerca {
+  height: 165vh;
+  margin-bottom: -50px;
+}
+/*############################################################################*/
+/*################################# SECCION MENU #######################*/
+/*############################################################################*/
+
+.article__section-menu h1 {
+  font-family: "Rajdhani", "Khand";
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.article__section-menu h2 {
+  font-family: "Rajdhani", "Khand";
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.menu__div-container {
+  width: 100%;
+  height: calc(100% - 155px);
+  position: absolute;
+}
+
+.menu__div-container div {
+  width: calc(100% / 3);
+  height: 300px;
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+  cursor: pointer;
+}
+
+.menu__div-container div:hover > img {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.menu__div-container div img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 1;
+  transition: all 0.5s;
+}
+
+.menu__div-container div h1 {
+  font-family: "Khand";
+  font-size: 35px;
+  font-weight: 600px;
+}
+
+.menu__div-container div h2 {
+  font-family: "Rajdhani";
+  font-size: 20px;
+}
+
+/*############################################################################*/
+/*################################# SECCION ESPECIALES #######################*/
+/*############################################################################*/
+
+.article__section-especiales h1 {
+  font-family: "Rajdhani", "Khand";
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.article__section-especiales h2 {
+  font-family: "Rajdhani", "Khand";
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.especiales__div-container {
+  position: absolute;
+}
+
+.container__div-especiales-izq {
+  position: relative;
+  float: left;
+  width: 50%;
+}
+
+.container__div-especiales-der {
+  position: relative;
+  float: right;
+  width: 50%;
+}
+
+.item-container-especial {
+  width: 80%;
+  height: 245px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.item-container-especial img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  display: inline;
+  position: absolute;
+}
+
+.item-container-especial h3 {
+  margin-left: 225px;
+  font-family: "Rajdhani";
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  transition: all 0.4s;
+}
+
+.item-container-especial h3:hover {
+  cursor: pointer;
+  color: #0a4;
+  transition: all 0.3s;
+}
+
+.item-container-especial p {
+  margin-left: 225px;
+  font-family: "Rajdhani";
+  font-size: 20px;
+}
+
+/*############################################################################*/
+/*################################# SECCION ACERCA DE #######################*/
+/*############################################################################*/
+
+.article__section-acerca h1 {
+  font-family: "Rajdhani", "Khand";
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  margin: 70px;
+}
+
+.article__section-acerca h2 {
+  font-family: 'Rajdhani';
+  font-size: 30px;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.article__section-acerca p {
+  font-family: 'Rajdhani';
+  font-size: 25px;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.acerca__div-container-cocineros {
+  height: 100vh;
+  position: relative;
+  background-color: rgb(33, 29, 30);
+}
+
+.acerca__div-container-cocineros h1 {
+  color: #fff;
+  padding: 30px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.acerca__ul-cocineros-container {
+  background-color: #8b5;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 210px);
+  padding: 30px 70px;
+  text-align: center;
+}
+
+.acerca__ul-cocineros-container li {
+  display: inline-block;
+  height: 350px;
+  margin: 0px 25px;
+  color: #fff;
+}
+
+.li-cocinero img {
+  border-radius: 120px;
+}
+
+.li-cocinero h3 {
+  top: 10px;
+  font-family: 'Rajdhani';
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+}
+
+.li__div-container-redes {
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.li__div-container-redes i {
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: all .4s;
+}
+
+.li__div-container-redes i:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color:#8b5 ;
+  border-radius: 10px;
+  transition: all .4s;
+}
+
+/*############################################################################*/
+/*################################# SECCION FOOTER #######################*/
+/*############################################################################*/
+
+.footer {
+  position: relative;
+  height: 470px;
+}
+
+.footer__div-contacto {
+  position: absolute;
+  width: 60%;
+  height: 400px;
+  background-image: url("resources/footer-wallpaper.jpg");
+}
+
+.div-contacto-obj-top {
+  height: 0;
+  width: 0;
+  border-top: 30px solid #fff;
+  border-right: 30px solid #fff;
+  border-left: 30px solid #c43;
+  border-bottom: 30px solid #c43;
+  z-index: 200;
+  position: absolute;
+  top: calc((100% - 350px) + 30px);
+  left: calc(((100% - 400px) / 2) + 340px);
+}
+
+.div-contacto-obj-bottom {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-top: 15px solid #c43;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #c43;
+  z-index: 200;
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: calc(((100% - 400px) / 2) - 30px);
+
+}
+
+.div-contacto-container {
+  background-color: #f75;
+  width: 400px;
+  height: 350px;
+  bottom: -30px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 100;
+  color: #fff;
+  padding: 15px;
+}
+
+.div-contacto-container h1 {
+  text-align: center;
+}
+
+.contacto-container-direccion {
+  padding-bottom: 0px;
+}
+.contacto-container-telefono {
+  padding-top: 10px;
+  padding-bottom: 5px
+}
+
+.contacto-container-email { 
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.div-contacto-container h3 {
+  text-align: center;
+  padding: 15px;
+}
+
+.contacto-container__div-redes-container {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.contacto-container__div-redes-container a {
+  display: inline-block;
+  color: #f75;
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  transition: all .4s;
+}
+
+.contacto-container__div-redes-container a i {
+  font-size: 25px;
+  padding-top: 9px;
+}
+
+.contacto-container__div-redes-container a:hover {
+  background-color: rgb(33, 29, 30);
+  transition: all .4s;
+}
+
+.contacto-container__div-redes-container a:hover > i {
+  color: #fff;
+  transition: all .4s;
+}
+
+.footer__div-mapa {
+  position: absolute;
+  width: 40%;
+  height: 400px;
+  right: 0;
+}
+
+.footer__div-mapa iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.footer__div-copyright {
+  background-color: rgb(33, 29, 30);
+  position: relative;
+  top: 400px;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer__div-copyright p {
+  padding-top: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+.div-copyright-powerade {
+  position: absolute;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
